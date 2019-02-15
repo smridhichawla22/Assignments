@@ -1,0 +1,39 @@
+1.Why Java is platform independent?
+  Java is platform independent because it uses the concept of generating the byte code of the high level program and then run that 
+  byte code on JVM.
+
+2.What are the differences between Heap and stack memory?
+  Heap- used for dynamic memory allocation, memory is allocated at the run time, complex to keep the track of heap.(for objects)
+
+  Stack- used for static memory allocation, memory is allocated at the compile time, really simple to keep the track of stack.(for variables)
+
+3.Explain public static void main(String [] args)
+
+4.Predict the output of following program
+  int main()
+  {
+	int i;
+	int arr[5] = {1};
+	for(i=0; i<5; i++)
+	{
+		printf("%d", arr[i]);
+	}
+	return 0;
+  }
+a) 1 followed by four garbage values
+ 
+5.Predict output of the following program
+  int main()
+  {
+	int a[][]= {{1,2},{3,4}};
+	int i,j;
+	for(i=0;j<2; j++){
+		printf("%d", a[i][j]);
+	}
+	return 0;
+  }
+  b)Compile error in line "int a[][] = {{1,2},{3,4}}"
+  
+6.We change the size of an array at run time?
+  NO, in an array declaration the size of an array must be known at compile time.
+ 
